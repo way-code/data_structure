@@ -1,5 +1,5 @@
-#ifndef ARRAY_LIST
-#define ARRAY_LIST
+#ifndef ARRAY_LIST_H
+#define ARRAY_LIST_H
 
 #include <stdio.h>
 #define ARRAY_SIZE 1024
