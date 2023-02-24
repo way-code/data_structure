@@ -26,6 +26,7 @@ void free_list(List_t list)
     }
     free(list->head);
     free(list->tail);
+    free(list);
 }
 
 void move_curr(List_t list, int index)
