@@ -72,6 +72,11 @@ int index_of_data(List_t list, data_t data)
     return (-1);
 }
 
+int count_data(List_t list)
+{
+	return (list->size);
+}
+
 data_t delete_data(List_t list, int index)
 {
     node_t* d_node;
